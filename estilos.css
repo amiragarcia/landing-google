@@ -1,0 +1,262 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000de;
+}
+
+header{
+    padding: 10px 8px 10px 0px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header ul{
+    width: 333px;
+    margin: auto 0;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding-top: 0px;
+}
+
+header ul li{
+    list-style: none;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    height: fit-content;
+}
+
+header ul li:nth-child(3){
+    padding-left: 19px;
+    padding-right: 4px;
+}
+
+header ul li a{
+    text-decoration: none;
+    font-size: 13px;
+    color: rgba(0,0,0,0.87);
+}
+
+header ul li a:hover{
+    text-decoration: underline;
+    text-decoration-color: rgba(0,0,0,0.87);
+}
+
+.iniciarSesion{
+    padding: 9px 23px;
+    border: solid 1px transparent;
+    margin: 0 8px;
+    background-color: #1a73e8;
+    border-radius: 4px;
+}
+
+.iniciarSesion a{
+    font-size: 14px;
+    color: #fff;
+}
+
+.iniciarSesion:hover{
+    background-color: #2b7de9;
+    box-shadow: 0 1px 2px 0 rgb(66 133 244 / 30%), 0 1px 3px 1px rgb(66 133 244 / 15%);
+}
+
+.iniciarSesion a:hover{
+    text-decoration: none;
+}
+
+.google-apps{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.google-apps svg{
+    width: 24px;
+    fill: #5f6368;
+}
+
+.google-apps:hover{
+    background-color: #f0f0f0;
+    border-radius: 20px;
+}
+/*------*/
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: calc(100vh - 154px);
+}
+
+.buscador{
+    display: flex;
+    align-items: center;
+    width: 582px;
+    height: 44px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    padding: 0px 16px 0px 14px;
+    margin-top: 20px;
+}
+
+.buscador:hover{
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);
+}
+
+.buscador input{
+    width: inherit;
+    height: 34px;
+    border: none;
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+.buscador input:focus-visible{
+    outline-width: 0px;
+}
+
+.cancelar{
+    width: 24px;
+    fill: gray;
+    display: none;
+}
+
+.lupa{
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+
+.microfono{
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+
+.lupa svg{
+    width: 20px;
+    fill: #9aa0a6;
+}
+
+.microfono svg{
+    width: 24px;
+}
+
+/*------*/
+
+.botonera{
+    margin-top: 29px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+}
+
+.botonera a{
+    background-color: #f8f9fa;
+    color: #3c4043;
+    padding: 0 16px;
+    font-size: 14px;
+    text-decoration: none;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    margin: 0 4px;
+    border: 1px solid #f8f9fa;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.botonera a:hover{
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+section p{
+    margin-top: 33px;
+    font-size: 13px;
+    color: #3c4043;
+}
+
+section p a{
+    text-decoration: none;
+    color: #1a0dab;
+}
+
+section p a:hover{
+    text-decoration: underline;
+}
+
+/*------*/
+
+footer{
+    height: 94px;
+    background-color: #f2f2f2;;
+    display: flex;
+    flex-direction: column;
+}
+
+.argentina{
+    width: 100%;
+    height: 47px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 30px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+}
+
+.argentina p{
+    color: #70757a;
+}
+
+.opciones{
+    width: 100%;
+    height: 46px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+
+.derecha{
+    display: flex;
+    list-style: none;
+}
+
+.izquierda{
+    display: flex;
+    list-style: none;
+}
+
+.derecha li a{
+    text-decoration: none;
+    padding: 15px;
+    color: #70757a;
+}
+
+.derecha li a:hover{
+    text-decoration: underline;
+}
+
+.izquierda li a{
+    text-decoration: none;
+    padding: 15px;
+    color: #70757a;
+}
+
+.izquierda li a:hover{
+    text-decoration: underline;
+}
